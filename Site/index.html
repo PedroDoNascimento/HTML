@@ -1,8 +1,32 @@
 <!DOCTYPE html>
+
 <html lang="pt-br">
 <style>
     .text{
+        margin-left: 400px;
+    }
+    .text_2{
+        margin-left: 40px;
         display: flex;
+    }
+    .menu-item, .men-open-button{
+        background-color: cadetblue;
+        border-radius: 100%;
+        width: 80px;
+        height: 80px;
+        margin-left: 840px;
+        position: absolute;
+        top: 20px;
+        color: aliceblue;
+        text-align: center;
+        line-height: 80px;
+        transform: translate3d(0, 0, 0);
+        transition: transform ease-out 200ms;
+        margin-top: 200 px;        
+        
+    }
+    .menu-open{
+        display: none;
     }
 </style>
 <head>
@@ -11,18 +35,62 @@
     <title>Site de Pedidos</title>
 </head>
 <body>
-    <h1>Olá Mundo</h1>
-    <hr>
+
+    <header> 
+        <p class="text">Seja Bem vindo</p>
+        <nav>
+            <input type="checkbox" href="#" class="menu-open" nome="menu-open" id="menu-open"/>
+            <label class="menu-open-button" for="menu-open">
+                <span class="hamburguer hamburguer-1"></span>
+                <span class="hamburguer hamburguer-2"></span>
+                <span class="hamburguer hamburguer-3"></span>
+            </label>
+            <a href="#" class="menu-item"> 
+                <i class="fa fa-bar-chart"></i></a>
+            <a href="#" class="menu-item"> 
+                <i class="fa fa-plus"></i></a>
+            <a href="#" class="menu-item"> 
+                <i class="fa fa-cog"></i></a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <header>
+                <article>
+                    <span>
+                        <p>
+
+                        </p>
+                    </span>
+                </article>
+            </header>
+        </section>
+        <aside>
+            <nav>
     
-    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate alias saepe repellendus reiciendis optio laboriosam commodi quidem dolores distinctio, reprehenderit aperiam laudantium incidunt quisquam, nesciunt ex! Saepe consequatur labore dolor.
-    </p>
+            </nav>
+            <div> 
+
+            </div>
+            <footer>
+
+            </footer>
+        </aside>
+    </main>
+    <textarea name="xis" id="" cols="30" rows="10"></textarea>
+    <h1>Faca seu pedido aqui</h1>
+    <hr>
+    <div class="text_2"> 
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate alias saepe repellendus reiciendis optio laboriosam commodi quidem dolores distinctio, reprehenderit aperiam laudantium incidunt quisquam, nesciunt ex! Saepe consequatur labore dolor.
+        </p>
+    </div>
+   
     <hr>
 
     <details>
         <summary> item 1</summary>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, doloremque. Dolore accusantium repudiandae eligendi, excepturi earum veniam quae numquam sapiente magni alias aspernatur reiciendis quasi non voluptate iure est eius.</p>
-    </details>
-    <input list="" name="" id="">
-    <progress id="Carregando" value="72+1" max="100"> 72% </progress>
+    </details> 
 </body>
 </html>
